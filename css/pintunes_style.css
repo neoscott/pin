@@ -9,3 +9,7 @@ body {
 .item{
   border:1px #ccc solid;
 }
+
+.item:hover{
+  background:#fff url('../img/play.png') no-repeat right bottom;
+}
