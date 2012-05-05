@@ -11,7 +11,7 @@ $limit = 25;
 // search?
 if( isset( $_GET['q'] ) && $_GET['q'] ){
 
-	$q = $_GET['q'];
+	$q = strip_tags( $_GET['q'] );
 	$url = 'http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/wa/wsSearch?media=music&term=' . urlencode( $q );
 	$json = json_decode( file_get_contents( $url ) );
 	
