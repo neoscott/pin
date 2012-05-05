@@ -1,0 +1,15 @@
+body {
+  background:#F8DAA9 url('../img/bg_toprural.png');
+}
+
+.total{
+	background:#fff url('../img/users.png') no-repeat 5px center;
+	position: absolute;
+	padding:10px 0 10px 30px;
+	width:40px;
+	margin-left:148px;
+}
+
+#header b {
+  color:green;
+}
