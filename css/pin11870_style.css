@@ -5,3 +5,7 @@ body {
 #header b {
   color:orange;
 }
+
+.item{
+  border:1px #000 solid;
+}

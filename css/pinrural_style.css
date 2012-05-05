@@ -13,3 +13,7 @@ body {
 #header b {
   color:green;
 }
+
+.item{
+  border:1px #CBA87A solid;
+}
