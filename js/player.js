@@ -13,6 +13,7 @@ $(function(){
 				searched = search;
 			
 				$('#secret').html('');
+				$('#container a').css('cursor', 'wait');
 			
 				$.getJSON(url, function(data) {
 				
@@ -21,6 +22,8 @@ $(function(){
 						
 						$('#secret').html('<iframe width="420" height="315" src="http://www.youtube.com/embed/' + id + '?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 						play = true;
+						
+						$('#container a').css('cursor', 'default');
 					
 					}else{
 						alert('no se puede reproducir');
